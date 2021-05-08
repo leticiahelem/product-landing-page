@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Monoton&family=New+Rocker&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+    </style>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector(".menuMobile").addEventListener("click", function () {
+                if (document.querySelector(".menu nav ul").style.display == 'none') {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }
+            });
+        };
+    </script>
+    <title>Book</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">REDIRECT+</div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mmline"></div>
+                        <div class="mmline"></div>
+                        <div class="mmline"></div>
+                    </div>
+                    <ul>
+                        <li class="active">ÍNICIO</li>
+                        <li>SOBRE NÓS</li>
+                        <li>PRODUTOS</li>
+                        <li>CONTATO</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="principal">
+        <div class="container">
+            <div class="mobile">
+            <div class="product">
+                <img class="mindbook" src="images/mindset.jpg" alt="Book: Mindset" />
+            </div>
+            <div class="desc">
+                <div class="title">
+                    <h1>MINDSET</h1>
+                    <h5 class="hm">A nova psicologia do sucesso, Carol Dweck</h5>
+                </div>
+                <div class="resume">
+                    <p>Em Mindset, a autora Carol S. Dweck – uma das maiores especialistas do mundo
+                        em personalidade, psicologia social e psicologia do desenvolvimento –
+                        explica que o sucesso em diferentes áreas da vida não se deve somente a um talento ou
+                        habilidade especial. Mas sim, e principalmente, ele é resultado da maneira como encaramos a
+                        vida,
+                        que é o que se chama de mindset – a atitude ou configuração mental. </p>
+                        <p>É a partir do mindset que enfrentamos as mais variadas situações do cotidiano,
+                             e também é por meio dele que tomamos decisões. 
+                             Existem dois tipos de mindset: o fixo e o de crescimento.</p>
+                </div>
+                <div class="buy">
+                    <p class="pbuy">Para mais informações e conhecimento, você pode estar adquirindo 
+                        o livro em qualquer uma dessas lojas abaixo:</p>
+                </div>
+                <div class="stores">
+                    <div class="amazon storewh">
+                        <a href="https://www.amazon.com.br/Mindset-Carol-S-Dweck/dp/8547000240/ref=asc_df_8547000240/?tag=googleshopp00-20&linkCode=df0&hvadid=379787837906&hvpos=&hvnetw=g&hvrand=7801916792931844394&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1031794&hvtargid=pla-333762643170&psc=1" target="_blank">
+                            <img class="imgb" src="images/Amazon.png" alt="Amazon"/>
+                        </a>
+                    </div>
+                    <div class="americanas storewh">
+                        <a href="https://www.americanas.com.br/busca/livro-mindset" target="_blank">
+                            <img class="imgb" src="images/americanas.png" alt="Americanas"/>
+                        </a>
+
+                    </div>
+                    <div class="saraiva storewh">
+                        <a href="https://www.saraiva.com.br/mindset-9404582/p" target="_blank">
+                            <img class="imgb" src="images/sv.png" alt="Saraiva"/>
+                        </a>
+                    </div>
+                    <div class="submarino storewh">
+                        <a href="https://www.submarino.com.br/produto/130282085" target="_blank">
+                            <img class="imgb" src="images/sub.png" alt="Submarino"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        Desined by Letícia Helem
+        
+    </footer>
+</body>
+
+</html>
